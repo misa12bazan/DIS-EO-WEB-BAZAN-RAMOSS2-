@@ -1,0 +1,98 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  color: #1a1a2e;
+  background-color: #f5f7fa;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d1b3e;
+  color: white;
+  padding: 16px 32px;
+}
+
+.logo { font-size: 1.4rem; font-weight: bold; }
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a { color: white; text-decoration: none; }
+header nav a:hover { text-decoration: underline; }
+
+.hero {
+  background-color: #14274e;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background-color: #f2a900;
+  color: #1a1a2e;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section { padding: 60px 32px; max-width: 1000px; margin: 0 auto; }
+h2 { color: #0d1b3e; text-align: center; margin-bottom: 30px; }
+
+.servicios-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+
+.servicio-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 24px;
+  width: 260px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
+th { background-color: #0d1b3e; color: white; }
+
+form fieldset {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 24px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form label { display: block; margin-top: 14px; font-weight: bold; }
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+  margin-top: 20px;
+  width: auto;
+  background-color: #f2a900;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+footer { background-color: #0d1b3e; color: white; text-align: center; padding: 20px; }
